@@ -172,15 +172,45 @@ Profile & Healthcare Management
 
 # System Architecture
 
-The platform follows a modular healthcare architecture focused on patient engagement and digital healthcare experiences.
+The platform follows a modular healthcare architecture focused on patient engagement, appointment management, medical records access, and secure healthcare experiences.
 
 <p align="center">
   <img
-    src="./assets/architecture/patient-portal-architecture.png"
+    src="./assets/architecture/healthcare-emr-system-architecture.png"
     width="100%"
-    alt="Patient Portal Architecture"
+    alt="Healthcare EMR Patient Portal System Architecture"
   />
 </p>
+
+---
+
+## Architecture Overview
+
+```text
+Patients
+    │
+    ▼
+Healthcare EMR Patient Portal
+    │
+    ├── Dashboard
+    ├── Appointment Management
+    ├── Medical Reports
+    ├── Patient Profile
+    └── Security & Privacy
+    │
+    ▼
+Frontend Application
+(Next.js + React + TypeScript)
+    │
+    ▼
+Healthcare Experience Layer
+    │
+    ├── Patient Engagement
+    ├── Appointment Workflows
+    ├── Medical Records Access
+    ├── Healthcare Analytics
+    └── Profile Management
+```
 
 ---
 
@@ -228,14 +258,16 @@ The platform follows a modular healthcare architecture focused on patient engage
 
 # Security Considerations
 
-The platform incorporates modern security practices including:
+The platform is designed with healthcare privacy and secure user experiences in mind.
 
-- Secure authentication workflows
-- Protected healthcare interactions
-- Secure API integrations
-- Session management architecture
-- Privacy-focused user experiences
+Key considerations include:
 
+- Privacy-focused healthcare experience
+- Secure user interactions
+- Protected healthcare workflows
+- Account and profile management
+- Modern frontend security practices
+  
 ---
 
 # Scalability
@@ -268,18 +300,19 @@ The platform is designed using scalable frontend architecture principles:
 - Appointment workflows
 - Healthcare reporting
 
-### Phase 2 — Healthcare Services
+### Phase 2 — Platform Improvements
 
-- Telemedicine integration
-- Prescription management
-- Notifications system
+- Enhanced patient engagement
+- Advanced healthcare analytics
+- Improved reporting experience
+- Additional healthcare workflows
 
-### Phase 3 — AI Healthcare Layer
+### Phase 3 — Experience Optimization
 
-- AI Health Assistant
-- Intelligent appointment assistance
-- Healthcare recommendations
-- Patient support automation
+- Accessibility improvements
+- Performance optimization
+- Enhanced mobile experience
+- Extended healthcare insights
 
 ---
 
