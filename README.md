@@ -14,9 +14,7 @@ Modern healthcare patient portal designed to deliver seamless patient engagement
 
 <p align="center">
   <img
-    src="./assets/branding/healthcare-emr-banner.png"
-    width="100%"
-    alt="Healthcare EMR Patient Portal"
+    src="./assets/branding/healthcare-emr-banner.png" width="100%" alt="Healthcare EMR Patient Portal"
   />
 </p>
 
@@ -176,9 +174,7 @@ The platform follows a modular healthcare architecture focused on patient engage
 
 <p align="center">
   <img
-    src="./assets/architecture/healthcare-emr-system-architecture.png"
-    width="100%"
-    alt="Healthcare EMR Patient Portal System Architecture"
+    src="./assets/architecture/healthcare-emr-system-architecture.png" width="100%" alt="Healthcare EMR Patient Portal System Architecture"
   />
 </p>
 
