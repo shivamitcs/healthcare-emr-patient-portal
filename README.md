@@ -183,11 +183,6 @@ Profile & Healthcare Management
 - React 18
 - TypeScript
 - Tailwind CSS
-- Framer Motion
-- GSAP
-- ScrollTrigger
-- Lottie
-- Lucide React
 
 ## UI & Experience
 
@@ -196,6 +191,17 @@ Profile & Healthcare Management
 - ScrollTrigger
 - Lottie Animations
 - Lucide Icons
+
+---
+
+# Architecture Highlights
+
+- Patient-centric workflow design
+- Modular frontend architecture
+- Responsive healthcare experience
+- Appointment management workflows
+- Medical records accessibility
+- Scalable UI component system
 
 ---
 
